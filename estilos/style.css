@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(19, 24, 31);
+    color: white;
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+header {
+    background-color: rgb(12, 11, 11);
+    height: 80px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+h1.logo {
+    font-size: 2.3em;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 15px;
+    margin-left: 15px;
+    letter-spacing: 3px;
+}
+
+ ul.header-ul {
+    display: flex;
+    justify-content: space-between
+ }
+
+ li.header-li {
+    list-style-type: none;
+    margin: 25px 13px  ;
+ }
+ a {
+    color: white;
+    text-decoration: none;
+    background-color: rgb();
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.2em;
+ }
+
+ a:hover {
+    border: 1.5px solid white;
+ }
+
+ .li-marcada {
+    background-color: rgb(255, 166, 0);
+ }
+ h1.principal {
+    text-transform: uppercase;
+    font-size: 4em;
+    margin: 40px 0;
+    text-align: center;
+
+ }
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*CAMPO DAS OFERTAS */
+div.ofertas {
+    background-color: rgb(48, 54, 65);
+    margin: 10px;
+    padding: 15px;
+    width: 270px;
+    height: 350px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+
+
+}
+
+
+h2.titulo-div {
+    width: 250px;
+    padding-bottom:10px ;
+    border-bottom: 2.9px solid orange;    
+    margin-bottom: 20px; 
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/*PREÇO*/
+p.valor {
+    font-size: 2em;
+    padding: 10px 0 25px;
+}
+
+/*LISTA*/
+li {
+    list-style-position: inside;
+    margin: 10px 0;
+}
+
+
+/*botão de ASSINE JÁ*/
+a.assine-ja {
+    background-color: orange;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    text-transform: uppercase;
+    text-align:center;
+    
+}
+a.assine-ja:hover {
+    background-color: rgb(64, 71, 82);
+}
+
+a.primeiro {
+    position: relative;
+    top: 60px;
+
+}
+
+a.segundo {
+position: relative;
+top: 30px;
+}
